@@ -1,0 +1,51 @@
+def'int + int'a b[->e
+if b[(a+)+(b-)-->e][a-->e]
+e]
+def'int - int'a b[->e
+if b[(a-)-(b-)-->e][a-->e]
+e]
+def'int * int'a b[->e
+if b[a*(b-)+a-->e][0-->e]
+e]
+def'int / int'a b[0->e
+b->q
+while[a][(a-)-->a
+(q-)-->q
+if(!q)[(e+)-->e
+b-->q]
+]
+e]
+def'int % int'a b[b->q
+while[a][(a-)-->a
+(q-)-->q
+if(!q)[b-->q]
+]
+b-q]
+def'int ~str'a[""->e
+while[a][a%10->r
+a/10-->a
+if(r==0)["0"e-->e][if(r==1)["1"e-->e][if(r==2)["2"e-->e][if(r==3)["3"e-->e][if(r==4)["4"e-->e][if(r==5)["5"e-->e][if(r==6)["6"e-->e][if(r==7)["7"e-->e][if(r==8)["8"e-->e][if(r==9)["9"e-->e][throw"Something went wrong"]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+]
+if(!e)["0"-->e]
+e]
+new int->0
+(0+)->1
+(1+)->2
+(2+)->3
+(3+)->4
+(4+)->5
+(5+)->6
+(6+)->7
+(7+)->8
+(8+)->9
+(9+)->10
+export()

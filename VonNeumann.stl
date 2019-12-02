@@ -1,0 +1,9 @@
+def'int + none'a b[a|{a}]
+def'int - none'a b[from a->h
+a\h->a
+while[a][from a->e
+a\e-->a
+if(e>=h)[e-->h]
+]
+h]
+export()

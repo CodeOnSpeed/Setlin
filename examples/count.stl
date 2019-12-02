@@ -1,0 +1,6 @@
+import stl
+0->i
+while[True][
+  out i
+  (i+)-->i
+]

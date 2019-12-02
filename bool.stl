@@ -1,0 +1,7 @@
+def'none !'a b[->e
+if b[False-->e][True-->e]
+e]
+def'bool ~str' a[->e
+if a["True"-->e]["False"-->e]
+e]
+export()

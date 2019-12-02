@@ -1,0 +1,3 @@
+def'int + none'a b[new int|{a}]
+def'int - none'a b[from a]
+export()
